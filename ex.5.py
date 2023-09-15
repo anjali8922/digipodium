@@ -23,6 +23,15 @@ for d,a in zip(dis,ngl) :
     #rt(a)
     #fd(d)
     #lt(a)
-#end_fill()    
+#end_fill() 
+
+penup()
+goto(200,-45)
+pendown()   
+for i in range(2):
+    fd(50)
+    lt(90)
+    fd(50)
+    lt(90)
 hideturtle()
 mainloop()    
