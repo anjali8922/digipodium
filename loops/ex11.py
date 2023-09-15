@@ -9,15 +9,15 @@ while True:
     fillcolor('yellow')
     begin_fill()
     for i in range(6):
-       fd(100+move)
-       rt(60)
-       fillcolor('blue')
-       begin_fill()
-       for i in range(6):
+        fd(100+move)
+        rt(60)
+        fillcolor('blue')
+        begin_fill()
+        for i in range(6):
            fd(50)
            rt(60)
-    end_fill() 
-      
+        end_fill() 
+    end_fill()  
     rt(60)
     move+=5
        

@@ -26,7 +26,8 @@ for d,a in zip(dis,ngl) :
 #end_fill() 
 
 penup()
-goto(200,-45)
+goto(183,75)
+right(20)
 pendown()   
 for i in range(2):
     fd(50)
