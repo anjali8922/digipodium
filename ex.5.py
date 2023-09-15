@@ -29,10 +29,13 @@ penup()
 goto(183,75)
 right(20)
 pendown()   
-for i in range(2):
-    fd(50)
-    lt(90)
-    fd(50)
-    lt(90)
+fillcolor('pink')
+begin_fill()
+dur=[50,50,50,50,25,50,25,25,50]
+kor=[90,90,90,90,90,90,90,90,90]
+for D,k in zip(dur,kor):
+    fd(D)
+    lt(k)
+end_fill()    
 hideturtle()
 mainloop()    
