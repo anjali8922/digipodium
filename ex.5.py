@@ -29,7 +29,7 @@ penup()
 goto(183,75)
 right(20)
 pendown()   
-fillcolor('pink')
+fillcolor('brown')
 begin_fill()
 dur=[50,50,50,50,25,50,25,25,50]
 kor=[90,90,90,90,90,90,90,90,90]
