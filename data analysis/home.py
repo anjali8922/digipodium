@@ -5,7 +5,7 @@ import numpy as np
 
 
 years=list(range(1980,2014))
-cols_to_drop=['Type','Coverage','AREA','DEV','REG']
+cols_to_drop=['Type','Coverage','AREA','DEV','REG']ṭ
 rename_dict={'OdName':'Country',
              'AreaName':'Continent',
              'RegName':'Region',
@@ -69,7 +69,7 @@ if countries:
         x=countries_df.index,
         y=countries_df.columns )
     for country in countries:
-        c1.info(f'{country}:{df.loc[country,'Total']} Immigration')
+        c1.info(f'{country}:{df.loc[country,Total]} Immigration')
         c2.plotly_chart(fig3,use_container_width=True)
         st.toast('your search has been loaded:',icon='😍')
 
